@@ -1,0 +1,150 @@
+.place-order-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+h2, h3, h4 {
+  text-align: center;
+  color: #333;
+}
+
+.order-summary {
+  text-align: center;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.address-form {
+  margin-top: 20px;
+}
+
+.address-form label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.address-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-method-selection {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.payment-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.payment-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.payment-btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.payment-section {
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.qr-code-image {
+  width: 180px;
+  height: 180px;
+  margin: 10px auto;
+  display: block;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.qr-note {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.utr-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.order-completed {
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #eaf8e4;
+}
+
+.order-completed h3 {
+  color: #155724;
+}
+
+.order-completed button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.order-completed button:hover {
+  background-color: #0056b3;
+}
